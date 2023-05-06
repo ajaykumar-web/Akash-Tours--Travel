@@ -564,7 +564,10 @@ a:hover {
     font-size: 11px;
   }
   .choose-us {
-    padding: 0 0 0 7rem;
+    padding: 0 7rem;
+  }
+  .responsive-map {
+    margin-bottom: 3rem;
   }
 }
 
