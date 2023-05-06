@@ -616,4 +616,7 @@ a:hover {
     background-color: var(--white);
     padding: 30% 0 0 0;
   }
+  .responsive-map {
+    margin-bottom: 5rem;
+  }
 }
