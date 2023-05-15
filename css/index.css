@@ -428,131 +428,6 @@ a:hover {
   padding: 0 0 0 7rem;
 }
 
-@media (min-width:1600px) {
-  body .container {
-    max-width: 1440px;
-  }
-}
-
-@media (max-width:1440px) {
-  .navbar-brand img {
-    width: 200px;
-
-  }
-}
-
-@media (max-width:1280px) {
-  .landing-page-content .travel-us {
-    font-size: 80px;
-  }
-
-  .landing-page-content .change-life {
-    font-size: 30px;
-  }
-}
-
-@media (max-width:1200px) {
-  h2 {
-    font-size: 28px;
-  }
-
-  .navbar li.nav-item {
-    margin: 0px 10px;
-  }
-}
-
-@media (max-width:992px) {
-  body {
-    overflow-x: hidden;
-    font-size: 14px;
-  }
-
-  .navbar {
-    background-color: var(--black);
-  }
-
-  .navbar .navbar-collapse:after {
-    content: "";
-    height: 0;
-    width: 0;
-  }
-
-  .nav-link {
-    color: var(--white);
-    border-bottom: 2px solidvar(--white);
-  }
-
-  .navbar-toggler-icon {
-    color: var(--white);
-  }
-
-  .landing-page-content .travel-us {
-    font-size: 60px;
-  }
-
-  .landing-page-content .enjoy-it {
-    font-size: 11px;
-  }
-
-  .choose-us {
-    padding: 0 7rem;
-  }
-
-  .responsive-map {
-    margin-bottom: 3rem;
-  }
-}
-
-@media (max-width:768px) {
-  nav.navbar {
-    padding: 0rem 0rem;
-  }
-
-  .tour-home {
-    margin: 0px 0px;
-  }
-
-  .client-testimonial-carousel .owl-dots button {
-    height: 15px;
-    position: relative;
-    bottom: 30px;
-    left: -120px;
-    visibility: hidden;
-    width: 30px;
-    display: inline-block;
-    margin-right: 100px;
-    padding-right: 50px;
-    transition: .2s;
-  }
-}
-
-@media (max-width:600px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  .navbar {
-    margin: 0;
-    padding: 0;
-  }
-
-  .tour-home {
-    margin: 0px 0px;
-  }
-
-  .about-us-content {
-    margin: 0 20px 0 0;
-  }
-
-  .gallery-type {
-    background-color: var(--white);
-    padding: 30% 0 0 0;
-  }
-
-  .responsive-map {
-    margin-bottom: 6rem;
-  }
-}
 
 #testimonial4 .carousel-inner:hover {
   cursor: -moz-grab;
@@ -730,4 +605,133 @@ a:hover {
   box-shadow: 0.2px 0.2px 80px 10px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   margin: 10% 0 0;
+}
+
+@media (min-width:1600px) {
+  body .container {
+    max-width: 1440px;
+  }
+}
+
+@media (max-width:1440px) {
+  .navbar-brand img {
+    width: 200px;
+
+  }
+}
+
+@media (max-width:1280px) {
+  .landing-page-content .travel-us {
+    font-size: 80px;
+  }
+
+  .landing-page-content .change-life {
+    font-size: 30px;
+  }
+}
+
+@media (max-width:1200px) {
+  h2 {
+    font-size: 28px;
+  }
+
+  .navbar li.nav-item {
+    margin: 0px 10px;
+  }
+}
+
+@media (max-width:992px) {
+  body {
+    overflow-x: hidden;
+    font-size: 14px;
+  }
+
+  .navbar {
+    background-color: var(--black);
+  }
+
+  .navbar .navbar-collapse:after {
+    content: "";
+    height: 0;
+    width: 0;
+  }
+
+  .nav-link {
+    color: var(--white);
+    border-bottom: 2px solidvar(--white);
+  }
+
+  .navbar-toggler-icon {
+    color: var(--white);
+  }
+
+  .landing-page-content .travel-us {
+    font-size: 60px;
+  }
+
+  .landing-page-content .enjoy-it {
+    font-size: 11px;
+  }
+
+  .choose-us {
+    padding: 0 7rem;
+  }
+
+  .responsive-map {
+    margin-bottom: 3rem;
+  }
+
+  .carousel-item p {
+    padding: 1rem 2rem !important;
+  }
+}
+
+@media (max-width:768px) {
+  nav.navbar {
+    padding: 0rem 0rem;
+  }
+
+  .tour-home {
+    margin: 0px 0px;
+  }
+
+  .client-testimonial-carousel .owl-dots button {
+    height: 15px;
+    position: relative;
+    bottom: 30px;
+    left: -120px;
+    visibility: hidden;
+    width: 30px;
+    display: inline-block;
+    margin-right: 100px;
+    padding-right: 50px;
+    transition: .2s;
+  }
+}
+
+@media (max-width:600px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    margin: 0;
+    padding: 0;
+  }
+
+  .tour-home {
+    margin: 0px 0px;
+  }
+
+  .about-us-content {
+    margin: 0 20px 0 0;
+  }
+
+  .gallery-type {
+    background-color: var(--white);
+  }
+
+  .responsive-map {
+    margin-bottom: 6rem;
+  }
 }
