@@ -769,15 +769,6 @@ a:hover {
     height: 50rem;
   }
 }
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 40px;
-}
-
 .service-card {
   position: relative;
   height: 45rem;
